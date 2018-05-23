@@ -17,7 +17,7 @@
   (pad 4 smd rect (at 1.5 0.7) (size 1.4 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -1.5 0.7) (size 1.4 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -1.5 -0.7) (size 1.4 0.9) (layers F.Cu F.Paste F.Mask))
-  (model "/home/matt/work/shortcut/raise-v3.1/step/LED_RGB_3528-4RGB- 10026.STEP"
+  (model "${KIPRJMOD}/raise_fp.pretty/models/LED_RGB_3528-4RGB- 10026.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
