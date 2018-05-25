@@ -1,8 +1,8 @@
-(module Crystals:Crystal_SMD_3215-2pin_3.2x1.5mm (layer F.Cu) (tedit 5AD89CB6)
+(module Crystal_SMD_3215-2pin_3.2x1.5mm (layer F.Cu) (tedit 5B07F60B)
   (descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
   (tags "SMD SMT Crystal")
   (attr smd)
-  (fp_text reference Y2 (at 1.05 -1.6 180) (layer F.SilkS)
+  (fp_text reference Y1 (at 1.05 -1.6 180) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.1)))
   )
   (fp_text value 32.768khz (at 0 2) (layer F.Fab)
@@ -23,9 +23,9 @@
   (fp_line (start 2 -1.15) (end 2 1.15) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at 1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Crystals.3dshapes/Crystal_SMD_3215-2pin_3.2x1.5mm.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+  (model ${KIPRJMOD}/raise_fp.pretty/models/Crystal_3215.wrl
+    (at (xyz -0.06299212598425198 -0.02952755905511811 0))
+    (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 0))
   )
 )

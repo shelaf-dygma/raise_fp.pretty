@@ -1,4 +1,4 @@
-(module TO_SOT_Packages_SMD:SOT-23-6 (layer F.Cu) (tedit 5AD8A616)
+(module SOT-23-6 (layer F.Cu) (tedit 5B07F29A)
   (descr "6-pin SOT-23 package")
   (tags SOT-23-6)
   (attr smd)
@@ -28,7 +28,7 @@
   (pad 4 smd rect (at 1.1 0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 1.1 -0.95) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.1 0) (size 1.06 0.65) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/TO_SOT_Packages_SMD.3dshapes/SOT-23-6.wrl
+  (model ${KIPRJMOD}/raise_fp.pretty/models/SOT-23-6.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
