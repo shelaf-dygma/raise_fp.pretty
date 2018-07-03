@@ -1,4 +1,4 @@
-(module fp:QFN-56_EP_4.5x6.5_Pitch0.4mm (layer F.Cu) (tedit 5AE9AF48)
+(module fp:QFN-46_EP_4.5x6.5_Pitch0.4mm (layer F.Cu) (tedit 5AE9AF48)
   (attr smd)
   (fp_text reference U1 (at 0.2 -5.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
