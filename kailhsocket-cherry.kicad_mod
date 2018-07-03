@@ -1,9 +1,9 @@
-(module kailhsocket-cherry (layer F.Cu) (tedit 5B1E3421)
+(module kailhsocket-cherry (layer F.Cu) (tedit 5B2BA8AE)
   (attr smd)
   (fp_text reference SW29 (at 0.2 5.4) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "kailh hot plug sockets" (at -2.2 -5) (layer B.SilkS)
+  (fp_text value "kailh hot plug sockets" (at -2.2 -5) (layer B.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (fp_line (start 4.9 -3.45) (end 4.9 -3.45) (layer B.SilkS) (width 0.15))
