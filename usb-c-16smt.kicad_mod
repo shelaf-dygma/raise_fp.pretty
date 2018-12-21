@@ -1,4 +1,5 @@
-(module usb-c-16smt (layer F.Cu) (tedit 5C179688)
+(module usb-c-16smt (layer F.Cu) (tedit 5C1CB3A2)
+  (attr smd)
   (fp_text reference J1 (at -0.11 3.21) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
