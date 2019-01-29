@@ -1,4 +1,4 @@
-(module Crystal_SMD_3215-2pin_3.2x1.5mm (layer F.Cu) (tedit 5B07F60B)
+(module Crystal_SMD_3215-2pin_3.2x1.5mm (layer F.Cu) (tedit 5B361448)
   (descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
   (tags "SMD SMT Crystal")
   (attr smd)
@@ -23,9 +23,9 @@
   (fp_line (start 2 -1.15) (end 2 1.15) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at 1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.25 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/raise_fp.pretty/models/Crystal_3215.wrl
-    (at (xyz -0.06299212598425198 -0.02952755905511811 0))
-    (scale (xyz 0.4 0.4 0.4))
+  (model ${KIPRJMOD}/raise_fp.pretty/models/Crystal_3215.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
