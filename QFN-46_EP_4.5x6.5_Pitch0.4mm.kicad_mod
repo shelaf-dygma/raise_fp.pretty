@@ -1,6 +1,6 @@
-(module fp:QFN-46_EP_4.5x6.5_Pitch0.4mm (layer F.Cu) (tedit 5AE9AF48)
+(module QFN-46_EP_4.5x6.5_Pitch0.4mm (layer F.Cu) (tedit 5C98FDF2)
   (attr smd)
-  (fp_text reference U1 (at 0.2 -5.6) (layer F.SilkS)
+  (fp_text reference U2 (at 4.4 -3.05 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value sled1735 (at 0 4.8) (layer F.Fab)
@@ -23,7 +23,7 @@
   (fp_line (start -2.247516 -2.294142) (end 3.252484 -2.294142) (layer F.Fab) (width 0.15))
   (fp_line (start -3.247516 -1.294142) (end -2.247516 -2.294142) (layer F.Fab) (width 0.15))
   (pad 47 smd rect (at -0.002208 -0.003316 90) (size 3 5) (layers F.Cu F.Paste F.Mask)
-    (solder_paste_margin -0.1))
+    (solder_mask_margin 0.3) (solder_paste_margin -0.1))
   (pad 9 smd oval (at -3.402208 1.596684 90) (size 0.2 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd oval (at -3.402208 1.196684 90) (size 0.2 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd oval (at -3.402208 0.796684 90) (size 0.2 1.1) (layers F.Cu F.Paste F.Mask))
@@ -70,7 +70,7 @@
   (pad 12 smd oval (at -1.802208 2.396684 180) (size 0.2 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd oval (at -2.202208 2.396684 180) (size 0.2 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd oval (at -2.602208 2.396684 180) (size 0.2 1.1) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/raise_fp.pretty/models/sled1735.STEP"
+  (model ${KIPRJMOD}/raise_fp.pretty/models/sled1735.STEP
     (at (xyz 0 0 0.02362204724409449))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
