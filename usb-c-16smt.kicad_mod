@@ -1,4 +1,4 @@
-(module usb-c-16smt (layer F.Cu) (tedit 5C86844F)
+(module usb-c-16smt (layer F.Cu) (tedit 5DFB40E2)
   (attr smd)
   (fp_text reference J1 (at -0.11 3.21) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -37,7 +37,7 @@
   (pad B4/A9 smd rect (at 2.4 -0.575) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 2.89 0.5) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -2.89 0.5) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
-  (model /home/matt/work/shortcut/raise-v3.1/step/USB_C_Daye.STEP
+  (model ${KIPRJMOD}/raise_fp.pretty/models/USB_C_Daye.STEP
     (at (xyz 0 -0.2755905511811024 0.06299212598425198))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
